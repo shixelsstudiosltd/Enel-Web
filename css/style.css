@@ -1,0 +1,47 @@
+@import "custom.css";
+.container-fluid #map {
+  width: 100%;
+  height: 500px;
+  background-color: #ccc;
+}
+.top-banner {
+  background-color: red;
+  height: 100px;
+  color: #ffffff;
+}
+.left_pane {
+  position: relative;
+  float: left;
+}
+.right_Pane {
+  position: relative;
+  float: right;
+  width: 600px;
+  padding: 10px;
+  margin: 15px 10px;
+}
+.right_Pane .contact-form {
+  position: relative;
+  background-color: red;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
+.right_Pane .contact-form .form-group input {
+  border: 1px solid #dddddd;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.right_Pane .contact-form .form-group input:focus {
+  border-color: red;
+}
+.right_Pane .contact-form .form-group textarea {
+  border: 1px solid #dddddd;
+  height: 400px;
+}
+.right_Pane .contact-form .form-group textarea:focus {
+  border-color: red;
+}
+.basic-ish {
+  background-color: black;
+  color: red;
+}
