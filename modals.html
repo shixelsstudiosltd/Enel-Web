@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet/less" type="text/css" href="css/style.less">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/less.js" type="text/javascript"></script>
+		<script type="text/javascript">less.watch();</script>
+		<meta name="tidy:filepath" content="index.html">
+	</head>
+	<body>
+
+
+		<div class="container-fluid">
+
+
+		<!-- Login Modal  -->
+
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-warning" id="LoginBtn">Login</button>
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="LoginModal" role="dialog">
+		    <div class="modal-dialog">
+		    
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+		          <form role="form">
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> Email</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="form-group">
+		              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+		              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+		            </div>
+		            <div class="checkbox">
+		              <label><input type="checkbox" value="" checked>Remember me</label>
+		            </div>
+		              <button type="submit" class="btn btn-warning btn-block"> Login</button>
+		          </form>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		          <p>Not a registered? <a href="#">Register Today</a></p>
+		          <p>Forgot <a href="#">Password?</a></p>
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div> 
+
+
+
+		<!-- 	Register Modal -->
+
+				  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info" id="RegBtn">Register</button>
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="RegModal" role="dialog">
+		    <div class="modal-dialog">
+		    
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4>Register</h4>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+		          <form role="form">
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> Email</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> Phone Number</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> First Name</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> Last Name</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="form-group">
+		              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+		              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+		            </div>
+		            <div class="form-group">
+		              <label for="email"><span class="glyphicon glyphicon-user"></span> Confirm Password</label>
+		              <input type="text" class="form-control" id="email" placeholder="Enter email">
+		            </div>
+		            <div class="checkbox">
+		              <label><input type="checkbox" value="" checked>I agree that i have read the <a href="#">terms and conditions</a> of this website</label>
+		            </div>
+		              <button type="submit" class="btn btn-success btn-block"> Register</button>
+		          </form>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		          <p>Already registered? <a href="#">Login</a></p>
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div> 
+
+
+		<!-- Play confirmation Modal  -->
+
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-danger" id="ConfirmBtn">Play</button>
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="ConfirmModal" role="dialog">
+		    <div class="modal-dialog">
+		    
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4>Confirm Ticket</h4>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+		          
+		            <div class="form-group">
+		              Are you sure you want to PLAY these numbers?
+		            </div>
+		            <button type="submit" class="btn btn-danger btn-success pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Confirm Tickets</button>
+		            <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		            
+		           </div>
+		        <div class="modal-footer">
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div> 
+<p></p>
+
+
+<div class="jumbotron basic-ish">This is exactally the issue</div>
+
+<script>
+$(document).ready(function(){
+    $("#LoginBtn").click(function(){
+        $("#LoginModal").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#RegBtn").click(function(){
+        $("#RegModal").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#ConfirmBtn").click(function(){
+        $("#ConfirmModal").modal();
+    });
+});
+</script>
+
+
+	</body>
+</html>
