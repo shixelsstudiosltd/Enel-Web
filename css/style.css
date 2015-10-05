@@ -1,45 +1,365 @@
-@import "custom.css";
+@import "modal.css";
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .container-fluid #map {
   width: 100%;
-  height: 500px;
+  height: 360px;
   background-color: #ccc;
 }
 .top-banner {
-  background-color: red;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: #8A2EE6;
   height: 100px;
   color: #ffffff;
 }
-.left_pane {
+.Enel_Details {
+  text-align: center;
+  float: left;
+  width: 100%;
+  font-size: 35px;
+  padding: 30px 0 10px 0;
+}
+header {
+  border-top: 2px solid #ff6600;
+}
+header .logo-holder {
+  position: absolute;
+  float: left;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  margin: 0px 0 0 -30px;
+  padding: 10px;
+  z-index: 1000;
+}
+header .logo-holder img {
+  margin: 40px 0 0 45px;
+  width: 230px;
+  height: 210px;
+}
+header .Top-Nav {
+  background-color: #ffffff;
+  height: 80px;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 300px;
+  z-index: -1;
+}
+header .Top-Nav ul li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+header .Top-Nav ul li a {
+  text-decoration: none;
+  color: #FF6600;
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 80px;
+}
+header .Top-Nav ul li a:hover {
+  border-bottom: 2px solid #ff6600;
+}
+header .Top-Nav .Btn_Login {
+  background-color: #303675;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+header .Top-Nav .Btn_Reg {
+  background-color: #ff6600;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  float: right;
+  margin-right: 200px;
+  margin-top: -15px;
+}
+#Main_Activity {
+  z-index: -1;
+  background: url("../images/main_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  top: 80px;
+}
+#Main_Activity .Image-holder {
   position: relative;
   float: left;
+  z-index: -1;
+  padding: 50px 30px 0 60px;
 }
-.right_Pane {
+#Main_Activity .Image-holder .img-up {
+  width: 1100px;
+  position: absolute;
+  top: -150px;
+}
+#Main_Activity .Info-holder {
   position: relative;
   float: right;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+#Main_Activity .Info-holder .logo-holder2 img {
   width: 600px;
-  padding: 10px;
-  margin: 15px 10px;
-}
-.right_Pane .contact-form {
+  margin-top: 30px;
   position: relative;
-  background-color: red;
-  border-radius: 3px;
-  border: 1px solid #dddddd;
+  top: 53px;
+  left: -100px;
+  margin-bottom: 30px;
 }
-.right_Pane .contact-form .form-group input {
-  border: 1px solid #dddddd;
+#Main_Activity .Info-holder .Latest_num {
+  padding-top: 30px;
+}
+#Main_Activity .Info-holder .Latest_num span {
+  font-size: 30px;
+  margin-left: 90px;
+}
+#Main_Activity .Info-holder .Latest_num .Num_display ul li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 10px;
+  width: 40px;
   height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #000000;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#Main_Activity .Info-holder .Btn_Play {
+  margin: 30px 0 0 75px;
+  padding: 20px 60px;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #ff6600;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+.Past_num {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 30px 50px;
+}
+.Past_num .Info_past {
+  position: absolute;
+  margin-left: 700px;
+  float: left;
+  color: #303675;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.Past_num .PastNum-holder {
+  float: left;
+  margin: 80px 0 0 400px;
+}
+.Past_num .PastNum-holder .PastNum1 {
+  float: left;
+  width: 350px;
+}
+.Past_num .PastNum-holder .PastNum1 ul li {
+  list-style-type: none;
+  border: 2px dotted #f8f8f8;
   margin-bottom: 20px;
+  padding: 5px;
 }
-.right_Pane .contact-form .form-group input:focus {
-  border-color: red;
+.Past_num .PastNum-holder .PastNum1 ul li span {
+  padding: 6px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 50%;
 }
-.right_Pane .contact-form .form-group textarea {
-  border: 1px solid #dddddd;
-  height: 400px;
+.Past_num .PastNum-holder .PastNum1 ul li label {
+  padding: 5px 10px 0 10px;
+  color: #A9A9A9;
+  font-weight: lighter;
 }
-.right_Pane .contact-form .form-group textarea:focus {
-  border-color: red;
+.Past_num .PastNum-holder .PastNum2 {
+  float: left;
+  width: 350px;
+  margin-left: 100px;
+}
+.Past_num .PastNum-holder .PastNum2 ul li {
+  list-style-type: none;
+  border: 2px dotted #f8f8f8;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.Past_num .PastNum-holder .PastNum2 ul li span {
+  padding: 6px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 50%;
+}
+.Past_num .PastNum-holder .PastNum2 ul li label {
+  padding: 5px 10px 0 10px;
+  color: #A9A9A9;
+  font-weight: lighter;
+}
+footer .footer-content-holder {
+  width: 100%;
+  padding: 30px 50px;
+  float: left;
+  background-color: #555555;
+  color: #ffffff;
+  border-top: 3px solid #000000;
+}
+footer .footer-content-holder .footer-links-holder {
+  float: left;
+  position: relative;
+  padding-bottom: 30px;
+}
+footer .footer-content-holder .footer-links-holder .footer-content-links {
+  float: left;
+  margin-left: 50px;
+}
+footer .footer-content-holder .footer-links-holder .footer-content-links ul li {
+  list-style-type: none;
+}
+footer .footer-content-holder .footer-links-holder .footer-content-links ul li span {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+}
+footer .footer-content-holder .footer-links-holder .footer-content-links ul li a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #ffffff;
+}
+footer .footer-content-holder .footer-links-holder .footer-content-links ul li a:hover {
+  color: #ff6600;
+  border-bottom: 1px solid #ff6600;
+}
+footer .footer-content-holder .footer-info {
+  font-weight: bold;
+  float: left;
+  width: 100%;
+  padding-left: 80px;
+  position: relative;
+}
+footer .footer-content-holder .footer-info .social-info {
+  float: left;
+}
+footer .footer-content-holder .footer-info .social-info ul li {
+  list-style-type: none;
+  font-size: 18px;
+  margin-left: -30px;
+}
+footer .footer-content-holder .footer-info .social-info a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 50%;
+}
+footer .footer-content-holder .footer-info .social-info a:hover {
+  color: #ff6600;
+}
+footer .footer-content-holder .footer-info .partners-info {
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+footer .footer-content-holder .footer-info .partners-info ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+#Contact_content {
+  position: relative;
+}
+#Contact_content .contact-box {
+  position: relative;
+  float: left;
+  top: -500px;
+  left: 700px;
+  opacity: 0.95;
+  z-index: 1000;
+  padding: 20px 40px;
+  background-color: #303030;
+  color: #ffffff;
+  border-left: 10px solid #ff6600;
+  border-radius: 10px;
+}
+#Contact_content .contact-box ul li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 5px;
+  color: #989898;
+}
+#Contact_content .contact-box ul li strong {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 30px;
+}
+.message-form-holder {
+  position: relative;
+  padding: 20px 30px;
+  width: 70%;
+  margin: 0px auto;
+}
+.message-form-holder .container-fluid {
+  position: relative;
+  top: 20px;
+}
+.message-form-holder .container-fluid .Info_message {
+  font-size: 38px;
+  color: #000000;
+  font-weight: bold;
+  padding-left: 300px;
+}
+.message-form-holder .form-holder {
+  padding: 20px 30px;
+  position: relative;
+  top: -100px;
+}
+.message-form-holder .form-holder form .form-group .SideFloat {
+  margin-bottom: 15px;
+  float: left;
+  width: 500px;
+}
+.message-form-holder .form-holder form .form-group .SideFloatR {
+  margin-bottom: 15px;
+  float: right;
+  width: 500px;
+}
+.message-form-holder .form-holder form .form-group input {
+  border: none;
+  background-color: #F1F2F5;
+  font-weight: lighter;
+  text-transform: uppercase;
+  height: 50px;
+}
+.message-form-holder .form-holder form .form-group textarea {
+  height: 300px;
+  border: none;
+  font-weight: lighter;
+  background-color: #F1F2F5;
+}
+.message-form-holder .form-holder .Btn_send {
+  background-color: #ff6600;
+  color: #ffffff;
+  padding: 10px 20px;
 }
 .basic-ish {
   background-color: black;
