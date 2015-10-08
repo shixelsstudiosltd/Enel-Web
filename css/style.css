@@ -1,29 +1,4 @@
 @import "modal.css";
-.container-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.container-fluid #map {
-  width: 100%;
-  height: 360px;
-  background-color: #ccc;
-}
-.top-banner {
-  text-align: center;
-  padding-top: 30px;
-  font-size: 25px;
-  text-transform: uppercase;
-  background-color: #8A2EE6;
-  height: 100px;
-  color: #ffffff;
-}
-.Enel_Details {
-  text-align: center;
-  float: left;
-  width: 100%;
-  font-size: 35px;
-  padding: 30px 0 10px 0;
-}
 header {
   border-top: 2px solid #ff6600;
 }
@@ -387,24 +362,28 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   float: left;
   width: 100%;
 }
-#Play_Enel .container {
-  width: 60%;
-}
-#Play_Enel .container h2 {
+#Play_Enel .Support_Info {
   font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
 }
-#Play_Enel .container small {
+#Play_Enel small {
   color: #ffffff;
   font-style: italic;
   font-weight: lighter;
   font-size: 16px;
+  position: relative;
+  float: left;
+  padding-left: 400px;
 }
-#Play_Enel .container .All_BTN {
+#Play_Enel .All_BTN {
   float: left;
   position: relative;
   width: 60%;
+  padding-left: 400px;
+  padding-right: 100px;
 }
-#Play_Enel .container .All_BTN .Main_Ques {
+#Play_Enel .All_BTN .Main_Ques {
   float: left;
   width: 100%;
   padding: 11px;
@@ -415,31 +394,37 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   color: #ffffff;
   margin-bottom: 10px;
 }
-#Play_Enel .container .All_BTN .Main_Ques .fa-caret-down {
+#Play_Enel .All_BTN .Main_Ques .fa-caret-down {
   float: right;
   position: relative;
   right: 20px;
   top: 5px;
 }
-#Play_Enel .container .All_BTN .Main_Ques .fa-caret-down:hover {
+#Play_Enel .All_BTN .Main_Ques .fa-caret-down:hover {
   cursor: pointer;
 }
-#Play_Enel .container .All_BTN .collapse {
+#Play_Enel .All_BTN .Main_Ques:hover {
+  cursor: pointer;
+}
+#Play_Enel .All_BTN .collapse {
   margin: 10px 30px 5px 30px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ffffff;
   background-color: #ffddc6;
 }
-#Play_Enel .container .All_BTN a {
+#Play_Enel .All_BTN .Option1 {
+  margin-top: ;
+}
+#Play_Enel .All_BTN a {
   text-decoration: none;
 }
-#Play_Enel .container .All_BTN a .rules_Link {
+#Play_Enel .All_BTN a .rules_Link {
   background-color: #ff6600;
   color: #ffffff;
   margin-top: 20px;
 }
-#Play_Enel .container .All_BTN .rules_Link:hover {
+#Play_Enel .All_BTN .rules_Link:hover {
   color: #ff6600;
   background-color: #ffffff;
 }
@@ -491,6 +476,9 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-size: 22px;
   padding-bottom: 30px;
 }
+.the_Faq .Faq_holder .Faq_Left .Main_Faq:hover {
+  cursor: pointer;
+}
 .the_Faq .Faq_holder .Faq_Left .collapse {
   background-color: #ff6600;
   color: #ffffff;
@@ -511,6 +499,9 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-size: 22px;
   padding-bottom: 30px;
 }
+.the_Faq .Faq_holder .Faq_Right .Main_Faq:hover {
+  cursor: pointer;
+}
 .the_Faq .Faq_holder .Faq_Right .collapse {
   background-color: #ff6600;
   color: #ffffff;
@@ -519,6 +510,122 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   margin-bottom: 30px;
   margin-top: -20px;
   border-radius: 5px;
+}
+.the_About {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.the_About .About_Info {
+  font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
+}
+.the_About small {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  padding-left: 400px;
+}
+.the_About .About_info_holder {
+  float: left;
+  position: relative;
+  padding-left: 300px;
+}
+.the_About .About_info_holder .About_Left {
+  float: left;
+  position: relative;
+  left: 100px;
+  width: 600px;
+  font-size: 18px;
+}
+.the_About .About_info_holder .About_Right {
+  float: left;
+  position: relative;
+  margin-left: 200px;
+  width: 600px;
+}
+.the_About .About_info_holder .About_Right .img-holder-enugu {
+  position: relative;
+  padding: 10px;
+  top: -100px;
+}
+.Result_Big {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Big .Result_logo_text {
+  float: left;
+  position: relative;
+}
+.Result_Big .Result_logo_text .history_text {
+  font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.Result_Big .Result_logo_text .history_deadline {
+  float: left;
+  position: relative;
+  font-size: 16px;
+  font-style: italic;
+  color: #ffffff;
+}
+.Result_Big .result_table {
+  width: 70%;
+  padding-left: 400px;
+}
+.Result_Big .result_table .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+  border: 5px solid #ff6600;
+}
+.Result_Big .result_table .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Result_Big .result_table .custom-table .Result_body {
+  border: 3px solid #ffddc6;
+  background-color: #ffffff;
+}
+.Result_Big .result_table .custom-table .Result_body .Month_head {
+  font-size: 14px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td span {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Mth_Display {
+  margin-right: 100%;
+  font-weight: bold;
+  font-size: 18px;
 }
 .basic-ish {
   background-color: black;

@@ -1,0 +1,46 @@
+.the_About {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.the_About .About_Info {
+  font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
+}
+.the_About small {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  padding-left: 400px;
+}
+.the_About .About_info_holder {
+  float: left;
+  position: relative;
+  padding-left: 300px;
+}
+.the_About .About_info_holder .About_Left {
+  float: left;
+  position: relative;
+  left: 100px;
+  width: 600px;
+}
+.the_About .About_info_holder .About_Right {
+  float: left;
+  position: relative;
+  margin-left: 200px;
+  width: 600px;
+}
+.the_About .About_info_holder .About_Right .img-holder-enugu {
+  position: relative;
+  padding: 10px;
+}
