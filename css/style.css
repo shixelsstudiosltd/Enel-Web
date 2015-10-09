@@ -28,11 +28,21 @@ header .Top-Nav {
   padding-left: 300px;
   z-index: -1;
 }
-header .Top-Nav ul li {
+header .Top-Nav .mobile-menu-button {
+  float: right;
+  padding-right: 150px;
+  margin-left: -150px;
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+  color: #ff6600;
+  cursor: pointer;
+}
+header .Top-Nav .nav-links-menu li {
   list-style-type: none;
   margin-left: 30px;
 }
-header .Top-Nav ul li a {
+header .Top-Nav .nav-links-menu li a {
   text-decoration: none;
   color: #FF6600;
   float: left;
@@ -40,7 +50,7 @@ header .Top-Nav ul li a {
   padding: 5px;
   margin-left: 80px;
 }
-header .Top-Nav ul li a:hover {
+header .Top-Nav .nav-links-menu li a:hover {
   border-bottom: 2px solid #ff6600;
 }
 header .Top-Nav .Btn_Login {
@@ -626,8 +636,4 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   margin-right: 100%;
   font-weight: bold;
   font-size: 18px;
-}
-.basic-ish {
-  background-color: black;
-  color: red;
 }
