@@ -28,21 +28,11 @@ header .Top-Nav {
   padding-left: 300px;
   z-index: -1;
 }
-header .Top-Nav .mobile-menu-button {
-  float: right;
-  padding-right: 150px;
-  margin-left: -150px;
-  font-size: 18px;
-  position: relative;
-  top: -10px;
-  color: #ff6600;
-  cursor: pointer;
-}
-header .Top-Nav .nav-links-menu li {
+header .Top-Nav ul li {
   list-style-type: none;
   margin-left: 30px;
 }
-header .Top-Nav .nav-links-menu li a {
+header .Top-Nav ul li a {
   text-decoration: none;
   color: #FF6600;
   float: left;
@@ -50,7 +40,7 @@ header .Top-Nav .nav-links-menu li a {
   padding: 5px;
   margin-left: 80px;
 }
-header .Top-Nav .nav-links-menu li a:hover {
+header .Top-Nav ul li a:hover {
   border-bottom: 2px solid #ff6600;
 }
 header .Top-Nav .Btn_Login {
@@ -591,13 +581,6 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   float: left;
   position: relative;
 }
-.Result_Big .Result_logo_text .history_deadline {
-  float: left;
-  position: relative;
-  font-size: 16px;
-  font-style: italic;
-  color: #ffffff;
-}
 .Result_Big .result_table {
   width: 70%;
   padding-left: 400px;
@@ -637,3 +620,4 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-weight: bold;
   font-size: 18px;
 }
+/*------------------------ -------------------------- */
