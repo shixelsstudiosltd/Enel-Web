@@ -275,16 +275,26 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-size: 18px;
 }
 #Contact_content {
+  background: url("../images/map_static2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
   position: relative;
+  padding: 100px 0px;
+  z-index: -1;
+  float: left;
+  width: 100%;
 }
 #Contact_content .contact-box {
   position: relative;
   float: left;
-  top: -500px;
-  left: 700px;
+  left: 300px;
+  top: 100px;
+  bottom: 0px;
+  width: 500px;
   opacity: 0.95;
   z-index: 1000;
-  padding: 20px 40px;
+  padding: 40px 40px;
   background-color: #303030;
   color: #ffffff;
   border-left: 10px solid #ff6600;
@@ -302,51 +312,52 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-weight: lighter;
   font-size: 30px;
 }
-.message-form-holder {
+.Info_message {
   position: relative;
-  padding: 20px 30px;
-  width: 70%;
-  margin: 0px auto;
-}
-.message-form-holder .container-fluid {
-  position: relative;
-  top: 20px;
-}
-.message-form-holder .container-fluid .Info_message {
+  left: 700px;
+  top: -20px;
+  padding: 10px;
   font-size: 38px;
   color: #000000;
   font-weight: bold;
-  padding-left: 300px;
+  z-index: 1000;
 }
-.message-form-holder .form-holder {
-  padding: 20px 30px;
+.form-holder {
   position: relative;
-  top: -100px;
+  float: right;
+  right: 100px;
+  padding: 20px 0px;
+  width: 50%;
+  margin: 0px auto;
+  z-index: 1000;
 }
-.message-form-holder .form-holder form .form-group .SideFloat {
+.form-holder form .form-group {
+  opacity: 0.95;
+}
+.form-holder form .form-group .SideFloat {
   margin-bottom: 15px;
   float: left;
-  width: 500px;
+  width: 450px;
 }
-.message-form-holder .form-holder form .form-group .SideFloatR {
+.form-holder form .form-group .SideFloatR {
   margin-bottom: 15px;
   float: right;
-  width: 500px;
+  width: 450px;
 }
-.message-form-holder .form-holder form .form-group input {
+.form-holder form .form-group input {
   border: none;
   background-color: #F1F2F5;
   font-weight: lighter;
   text-transform: uppercase;
   height: 50px;
 }
-.message-form-holder .form-holder form .form-group textarea {
-  height: 300px;
+.form-holder form .form-group textarea {
+  height: 250px;
   border: none;
   font-weight: lighter;
   background-color: #F1F2F5;
 }
-.message-form-holder .form-holder .Btn_send {
+.form-holder .Btn_send {
   background-color: #ff6600;
   color: #ffffff;
   padding: 10px 20px;
@@ -379,7 +390,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 #Play_Enel .All_BTN {
   float: left;
   position: relative;
-  width: 60%;
+  width: 80%;
   padding-left: 400px;
   padding-right: 100px;
 }
@@ -407,7 +418,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   cursor: pointer;
 }
 #Play_Enel .All_BTN .collapse {
-  margin: 10px 30px 5px 30px;
+  margin: 10px 20px 5px 20px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ffffff;
@@ -416,13 +427,13 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 #Play_Enel .All_BTN .Option1 {
   margin-top: ;
 }
-#Play_Enel .All_BTN a {
+#Play_Enel .All_BTN .rules_Link {
   text-decoration: none;
-}
-#Play_Enel .All_BTN a .rules_Link {
   background-color: #ff6600;
   color: #ffffff;
   margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 #Play_Enel .All_BTN .rules_Link:hover {
   color: #ff6600;
@@ -621,3 +632,9 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-size: 18px;
 }
 /*------------------------ -------------------------- */
+.rules_holder {
+  position: relative;
+  float: left;
+  padding-left: 400px;
+  padding-right: 200px;
+}

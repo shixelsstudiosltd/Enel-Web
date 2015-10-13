@@ -1,18 +1,27 @@
 // Contact_Activity Style
 #Contact_content{
+	background: url("../images/map_static2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
 	position: relative;
+	padding: 100px 0px;
+	z-index: -1;
+	float: left;
+	width: 100%;
 
-	.View-map{
-	}
+
 
 	.contact-box{
 		position: relative;
 		float: left;
-		top: -500px;
-		left: 700px;
+		left:300px;
+		top: 100px;
+		bottom: 0px;
+		width: 500px;
 		opacity: 0.95;
 		z-index:1000;
-		padding: 20px 40px;
+		padding: 40px 40px;
 		background-color: #303030;
 		color: #ffffff;
 		border-left: 10px solid #ff6600;
@@ -35,49 +44,51 @@
 			}
 		}
 	}
-
 }
 
-// message-form-holder Style 
 
-.message-form-holder{
-	position: relative;
-	padding: 20px 30px;
-	width: 70%;
-	margin: 0px auto;
+// Form Style 
 
-	.container-fluid{
-		position: relative;
-		top: 20px;
+	
+
 
 			.Info_message{
+				position: relative;
+				left: 700px;
+				top: -20px;
+				padding: 10px;
 				font-size: 38px;
 				color: #000000;
 				font-weight: bold;
-				padding-left: 300px;
-			}
+				z-index: 1000;
+							}
 		
-	}
 
 	.form-holder{
-		padding:20px 30px;
-		position: relative;
-		top: -100px;
+	position: relative;
+	float: right;
+	right: 100px;
+	padding: 20px 0px;
+	width: 50%;
+	margin: 0px auto;
+	z-index: 1000;
+
 
 		form{
 
 			.form-group{
+				opacity: 0.95;
 
 				.SideFloat{
 					margin-bottom: 15px;
 					float: left;
-					width: 500px;
+					width: 450px;
 				}
 
 				.SideFloatR{
 					margin-bottom: 15px;
 					float: right;
-					width: 500px;
+					width: 450px;
 				}
 
 				input{
@@ -86,13 +97,15 @@
 					font-weight: lighter;
 					text-transform: uppercase;
 					height: 50px;
+					
 				}
 
 				textarea{
-					height: 300px;
+					height: 250px;
 					border: none;
 					font-weight: lighter;
 					background-color: #F1F2F5;
+					
 				}
 			}
 		}
@@ -103,4 +116,3 @@
 			padding: 10px 20px;
 		}
 	}			
-}
