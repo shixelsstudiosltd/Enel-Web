@@ -647,3 +647,91 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   padding-left: 400px;
   padding-right: 200px;
 }
+.Result_Details {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Details .Draw-Info-holder {
+  float: left;
+  position: relative;
+  padding: 10px 20px 10px 50px;
+  left: 300px;
+}
+.Result_Details .Draw-Info-holder .game-logo-holder {
+  float: left;
+}
+.Result_Details .Draw-Info-holder .game-logo-holder img {
+  width: 150px;
+  height: 80px;
+}
+.Result_Details .Draw-Info-holder .draw-details-holder {
+  float: left;
+  position: relative;
+  padding-left: 20px;
+  padding-top: -5px;
+}
+.Result_Details .Draw-Info-holder .draw-details-holder ul .Main_Info {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Result_Details .Draw-Info-holder .draw-details-holder ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.Result_Details .Draw-Info-holder .detail-toggle {
+  float: left;
+  position: relative;
+  width: 600px;
+  padding: 20px;
+}
+.Result_Details .Draw-Info-holder .detail-toggle ul li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.Result_Details .Draw-Info-holder .detail-toggle ul li:active {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.Result_Details .Draw-Info-holder .Winning-num-holder {
+  float: left;
+  position: relative;
+}
+.Result_Details .Draw-Info-holder .Winning-num-holder label {
+  font-size: 20x;
+  font-weight: bold;
+}
+.Result_Details .Draw-Info-holder .Winning-num-holder .Num_detail-holder span {
+  float: left;
+  font-size: 20px;
+  position: relative;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ff6600;
+}
+.Result_Details .Draw-Info-holder .Past-winners {
+  float: right;
+  position: relative;
+  padding-right: 100px;
+  width: 300px;
+  height: 400px;
+}
+.Result_Details .Draw-Info-holder .Past-winners a {
+  text-decoration: none;
+}
+.Result_Details .Draw-Info-holder .bottom-Info {
+  float: left;
+  position: relative;
+  width: 600px;
+}
