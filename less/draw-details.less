@@ -13,16 +13,19 @@
 	.Draw-Info-holder{
 		float: left;
 		position: relative;
-		padding: 10px 20px 10px 50px;
+		padding: 10px 0px 20px 50px;
 		left: 300px;
 
 		.game-logo-holder{
 			float: left;
+			position: relative;
+			left: 50px; 
+			top: 10px;
 			
 
 			img{
-				width: 150px;
-				height: 80px;
+				width: 180px;
+				height: 100px;
 			}
 		}
 
@@ -46,13 +49,19 @@
 			}
 		}
 
+	}
+
 		.detail-toggle{
 			float: left;
 			position: relative;
 			width: 600px;
 			padding: 20px;
+			top: 120px;
+			left: -200px;
+			border-bottom: 2px solid red;
 
 			 ul{
+			 	
 			 	li{
 			 		list-style-type: none;
 			 		float: left;
@@ -60,7 +69,10 @@
 			 		display: inline-block;
 			 		padding: 10px 30px;
 			 		background-color: #f9f9f9;
+			 		font-size: 16px;
 			 		border-radius: 5px;
+			 		margin-left: 3px;
+			 		left: -50px;
 			 	}
 			 	li:active{background-color: #ff6600;color: #ffffff;}
 			 }
@@ -69,21 +81,32 @@
 		.Winning-num-holder{	
 				float: left;
 				position: relative;
+				width: 550px;
+				left: -800px;
+				top: 220px;
+				padding: 30px;
+				background-color: #ff6600;
+				border-radius: 10px;
 
-			label{
-				font-size: 20x;
+			span{
+				float: left;
+				font-size: 20px;
 				font-weight: bold;
 			}
 
 			.Num_detail-holder{
+				float: left;
+				position: relative;
 
 				span{
 					float: left;
-					font-size: 20px;
+					font-size: 25px;
 					position: relative;
-					padding: 15px;
+					padding: 20px;
 					border-radius: 50%;
-					background-color: #ff6600; 
+					background-color: #ffffff;
+					font-weight: bold;
+					margin: 5px; 
 
 
 				}
@@ -101,15 +124,16 @@
 			a{
 				text-decoration: none;
 			}
-			a:hover{}
+			a:hover{background-color: #ffffff;}
 		}
 
 		.bottom-Info{
 			float: left;
 			position: relative;
-			width: 600px;
+			top: 250px;
+			left: 400px;
+			width: 700px;
 		}
-	}
 }
 
 

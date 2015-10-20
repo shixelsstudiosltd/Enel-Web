@@ -608,7 +608,6 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 .Result_Big .result_table .custom-table .Result-head {
   background-color: #303030;
   padding: 30px 20px;
-  border: 5px solid #ff6600;
 }
 .Result_Big .result_table .custom-table .Result-head tr th {
   font-size: 18px;
@@ -616,7 +615,6 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-weight: bold;
 }
 .Result_Big .result_table .custom-table .Result_body {
-  border: 3px solid #ffddc6;
   background-color: #ffffff;
 }
 .Result_Big .result_table .custom-table .Result_body .Month_head {
@@ -642,10 +640,14 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 }
 /*------------------------ -------------------------- */
 .rules_holder {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
   position: relative;
   float: left;
-  padding-left: 400px;
-  padding-right: 200px;
+  left: -400px;
+  top: 50px;
+  width: 1000px;
 }
 .Result_Details {
   background: url("../images/main_bg.jpg");
@@ -661,15 +663,18 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 .Result_Details .Draw-Info-holder {
   float: left;
   position: relative;
-  padding: 10px 20px 10px 50px;
+  padding: 10px 0px 20px 50px;
   left: 300px;
 }
 .Result_Details .Draw-Info-holder .game-logo-holder {
   float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
 }
 .Result_Details .Draw-Info-holder .game-logo-holder img {
-  width: 150px;
-  height: 80px;
+  width: 180px;
+  height: 100px;
 }
 .Result_Details .Draw-Info-holder .draw-details-holder {
   float: left;
@@ -685,53 +690,214 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   list-style-type: none;
   padding: 5px 0px;
 }
-.Result_Details .Draw-Info-holder .detail-toggle {
+.Result_Details .detail-toggle {
   float: left;
   position: relative;
   width: 600px;
   padding: 20px;
+  top: 120px;
+  left: -200px;
+  border-bottom: 2px solid red;
 }
-.Result_Details .Draw-Info-holder .detail-toggle ul li {
+.Result_Details .detail-toggle ul li {
   list-style-type: none;
   float: left;
   position: relative;
   display: inline-block;
   padding: 10px 30px;
   background-color: #f9f9f9;
+  font-size: 16px;
   border-radius: 5px;
+  margin-left: 3px;
+  left: -50px;
 }
-.Result_Details .Draw-Info-holder .detail-toggle ul li:active {
+.Result_Details .detail-toggle ul li:active {
   background-color: #ff6600;
   color: #ffffff;
 }
-.Result_Details .Draw-Info-holder .Winning-num-holder {
+.Result_Details .Winning-num-holder {
   float: left;
   position: relative;
+  width: 550px;
+  left: -800px;
+  top: 220px;
+  padding: 30px;
+  background-color: #ff6600;
+  border-radius: 10px;
 }
-.Result_Details .Draw-Info-holder .Winning-num-holder label {
-  font-size: 20x;
-  font-weight: bold;
-}
-.Result_Details .Draw-Info-holder .Winning-num-holder .Num_detail-holder span {
+.Result_Details .Winning-num-holder span {
   float: left;
   font-size: 20px;
-  position: relative;
-  padding: 15px;
-  border-radius: 50%;
-  background-color: #ff6600;
+  font-weight: bold;
 }
-.Result_Details .Draw-Info-holder .Past-winners {
+.Result_Details .Winning-num-holder .Num_detail-holder {
+  float: left;
+  position: relative;
+}
+.Result_Details .Winning-num-holder .Num_detail-holder span {
+  float: left;
+  font-size: 25px;
+  position: relative;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+.Result_Details .Past-winners {
   float: right;
   position: relative;
   padding-right: 100px;
   width: 300px;
   height: 400px;
 }
-.Result_Details .Draw-Info-holder .Past-winners a {
+.Result_Details .Past-winners a {
   text-decoration: none;
 }
-.Result_Details .Draw-Info-holder .bottom-Info {
+.Result_Details .Past-winners a:hover {
+  background-color: #ffffff;
+}
+.Result_Details .bottom-Info {
   float: left;
   position: relative;
-  width: 600px;
+  top: 250px;
+  left: 400px;
+  width: 700px;
+}
+#Claim_price {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 850px;
+  float: left;
+  width: 100%;
+}
+#Claim_price .Support_Info {
+  font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
+}
+#Claim_price .Gen_Claim {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  padding-right: 100px;
+  left: 400px;
+  width: 900px;
+}
+#Claim_price .Sub_Claim1 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  padding-right: 100px;
+  left: -500px;
+  top: 300px;
+  width: 900px;
+}
+#Claim_price .Claim_BTN {
+  float: left;
+  position: relative;
+  width: 1000px;
+  top: 320px;
+  left: -500px;
+  padding-right: 100px;
+}
+#Claim_price .Claim_BTN .Claim_Ans {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+#Claim_price .Claim_BTN .Claim_Ans .fa-trophy {
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 5px;
+  font-size: 45px;
+  padding: 10px;
+}
+#Claim_price .Claim_BTN .Claim_Ans .Claim_Ans:hover {
+  cursor: pointer;
+}
+#Claim_price .Claim_BTN .Claim_Ans .collapse {
+  margin: 10px 20px 5px 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#Claim_price .Claim_BTN .Claim_Ans .collapse h3 {
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 25px;
+}
+#Claim_price .Claim_BTN .Claim_Ans .collapse h5 {
+  color: #ff6600;
+}
+#Claim_price .Claim_BTN .Claim_Ans .Option1 {
+  margin-top: ;
+}
+#Claim_price .Claim_BTN .Claim_Ans .rules_Link {
+  position: relative;
+  text-decoration: none;
+  background-color: #ff6600;
+  color: #ffffff;
+  top: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#Claim_price .Claim_BTN .Claim_Ans .rules_Link:hover {
+  color: #ff6600;
+  background-color: #ffffff;
+}
+.price-table-holder {
+  width: 70%;
+  padding-left: 400px;
+  padding-top: 250px;
+}
+.price-table-holder .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+}
+.price-table-holder .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.price-table-holder .custom-table .Result_body {
+  background-color: #ffffff;
+}
+.price-table-holder .custom-table .Result_body .Month_head {
+  font-size: 14px;
+}
+.price-table-holder .custom-table .Result_body .total_row {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.price-table-holder .custom-table .Result_body tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.price-table-holder .custom-table .Result_body tr td span {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
 }
