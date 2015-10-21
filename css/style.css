@@ -752,17 +752,90 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   margin: 5px;
 }
 .Result_Details .Past-winners {
+  border-radius: 10px;
   float: right;
   position: relative;
-  padding-right: 100px;
+  top: -200px;
+  left: -400px;
   width: 300px;
   height: 400px;
 }
-.Result_Details .Past-winners a {
+.Result_Details .Past-winners .Other_Info {
+  background: url("../images/dollar.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+  background-color: #ff6600;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop {
   text-decoration: none;
 }
-.Result_Details .Past-winners a:hover {
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info strong {
+  font-size: 30px;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info small {
+  font-size: 14px;
+  padding-left: 30px;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info i {
+  padding: 20px 35px;
+  opacity: 0.8;
+  border-radius: 2px;
   background-color: #ffffff;
+  color: #ff6600;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+.Result_Details .Past-winners .Other_Info .banner_Info:hover {
+  color: #ffffff;
+}
+.Result_Details .Past-winners .Other_Info2 {
+  background: url("../images/dollar.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+  background-color: #ff6600;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}
+.Result_Details .Past-winners .Other_Info2 .BannerTop {
+  text-decoration: none;
+}
+.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info strong {
+  font-size: 30px;
+}
+.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info small {
+  font-size: 14px;
+  padding-left: 30px;
+}
+.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info i {
+  padding: 20px 35px;
+  opacity: 0.8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #ff6600;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+.Result_Details .Past-winners .Other_Info2 .banner_Info:hover {
+  color: #ffffff;
 }
 .Result_Details .bottom-Info {
   float: left;
@@ -770,6 +843,13 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   top: 250px;
   left: 400px;
   width: 700px;
+}
+.Result_Details .bottom-Info .Claim_Btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #ff0000;
+  border-radius: 5px;
 }
 #Claim_price {
   background: url("../images/main_bg.jpg");
