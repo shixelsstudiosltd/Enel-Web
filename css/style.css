@@ -704,12 +704,19 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   float: left;
   position: relative;
   display: inline-block;
-  padding: 10px 30px;
-  background-color: #f9f9f9;
   font-size: 16px;
-  border-radius: 5px;
   margin-left: 3px;
   left: -50px;
+}
+.Result_Details .detail-toggle ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.Result_Details .detail-toggle ul li a:hover {
+  background-color: #ff6600;
+  color: #ffffff;
 }
 .Result_Details .detail-toggle ul li:active {
   background-color: #ff6600;
@@ -864,35 +871,46 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   color: #ff6600;
   background-color: #ffffff;
 }
-.price-table-holder {
+.Result_Details {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 400px;
+  float: left;
+  width: 100%;
+}
+.Result_Details .price-table-holder {
   width: 70%;
   padding-left: 400px;
-  padding-top: 250px;
+  padding-top: 220px;
 }
-.price-table-holder .custom-table .Result-head {
+.Result_Details .price-table-holder .custom-table .Result-head {
   background-color: #303030;
   padding: 30px 20px;
 }
-.price-table-holder .custom-table .Result-head tr th {
+.Result_Details .price-table-holder .custom-table .Result-head tr th {
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
 }
-.price-table-holder .custom-table .Result_body {
+.Result_Details .price-table-holder .custom-table .Result_body {
   background-color: #ffffff;
 }
-.price-table-holder .custom-table .Result_body .Month_head {
+.Result_Details .price-table-holder .custom-table .Result_body .Month_head {
   font-size: 14px;
 }
-.price-table-holder .custom-table .Result_body .total_row {
+.Result_Details .price-table-holder .custom-table .Result_body .total_row {
   font-weight: bolder;
   font-size: 18px;
 }
-.price-table-holder .custom-table .Result_body tr td {
+.Result_Details .price-table-holder .custom-table .Result_body tr td {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.price-table-holder .custom-table .Result_body tr td span {
+.Result_Details .price-table-holder .custom-table .Result_body tr td span {
   padding: 15px;
   background-color: #ff6600;
   color: #ffffff;
@@ -900,4 +918,10 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   font-weight: bold;
   border-radius: 50%;
   margin-left: 10px;
+}
+.bottom-Info-Price {
+  float: left;
+  position: relative;
+  left: 400px;
+  width: 700px;
 }
