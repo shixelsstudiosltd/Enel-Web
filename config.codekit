@@ -683,6 +683,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Cash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2917,
+		"inputAbbreviatedPath": "\/images\/Cash.png",
+		"outputAbbreviatedPath": "\/images\/Cash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Cash1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2255,
+		"inputAbbreviatedPath": "\/images\/Cash1.png",
+		"outputAbbreviatedPath": "\/images\/Cash1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Cash2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2552,
+		"inputAbbreviatedPath": "\/images\/Cash2.png",
+		"outputAbbreviatedPath": "\/images\/Cash2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/crazy_smile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -701,6 +734,17 @@
 		"initialSize": 1.32947e+07,
 		"inputAbbreviatedPath": "\/images\/crazy_smile.png",
 		"outputAbbreviatedPath": "\/images\/crazy_smile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ENEL-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82610,
+		"inputAbbreviatedPath": "\/images\/ENEL-logo.png",
+		"outputAbbreviatedPath": "\/images\/ENEL-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

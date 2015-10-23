@@ -755,22 +755,18 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   border-radius: 10px;
   float: right;
   position: relative;
-  top: -200px;
   left: -400px;
   width: 300px;
   height: 400px;
 }
 .Result_Details .Past-winners .Other_Info {
-  background: url("../images/dollar.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ff0000;
   position: relative;
   padding: 20px;
-  background-color: #ff6600;
   width: 350px;
-  height: 300px;
-  border-radius: 10px;
+  height: 250px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .Result_Details .Past-winners .Other_Info .BannerTop {
   text-decoration: none;
@@ -779,62 +775,43 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   padding: 5px;
   text-align: center;
 }
-.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info strong {
-  font-size: 30px;
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info .Banner_Top_text {
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  margin-left: -150px;
 }
-.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info small {
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info .BText_Huge {
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info .Extra_Info {
   font-size: 14px;
-  padding-left: 30px;
+  color: #000000;
+  position: relative;
+  top: -25px;
+  left: -40px;
 }
 .Result_Details .Past-winners .Other_Info .BannerTop .banner_Info i {
-  padding: 20px 35px;
+  padding: 20px 40px;
   opacity: 0.8;
   border-radius: 2px;
   background-color: #ffffff;
   color: #ff6600;
+  font-weight: bold;
+  font-size: 18px;
   position: relative;
-  top: 30px;
-  left: 80px;
+  top: 20px;
+}
+.Result_Details .Past-winners .Other_Info .BannerTop .banner_Info i:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  opacity: 1.0;
 }
 .Result_Details .Past-winners .Other_Info .banner_Info:hover {
-  color: #ffffff;
-}
-.Result_Details .Past-winners .Other_Info2 {
-  background: url("../images/dollar.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 20px;
-  background-color: #ff6600;
-  width: 350px;
-  height: 300px;
-  border-radius: 10px;
-}
-.Result_Details .Past-winners .Other_Info2 .BannerTop {
-  text-decoration: none;
-}
-.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info {
-  padding: 5px;
-  text-align: center;
-}
-.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info strong {
-  font-size: 30px;
-}
-.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info small {
-  font-size: 14px;
-  padding-left: 30px;
-}
-.Result_Details .Past-winners .Other_Info2 .BannerTop .banner_Info i {
-  padding: 20px 35px;
-  opacity: 0.8;
-  border-radius: 2px;
-  background-color: #ffffff;
-  color: #ff6600;
-  position: relative;
-  top: 30px;
-  left: 80px;
-}
-.Result_Details .Past-winners .Other_Info2 .banner_Info:hover {
   color: #ffffff;
 }
 .Result_Details .bottom-Info {
@@ -845,11 +822,25 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   width: 700px;
 }
 .Result_Details .bottom-Info .Claim_Btn {
+  position: relative;
+  top: -10px;
   text-decoration: none;
   color: #ffffff;
-  padding: 5px 15px;
+  font-size: 14px;
+  padding: 10px 15px 10px 5px;
   background-color: #ff0000;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.Result_Details .bottom-Info .Claim_Btn .cash_icon {
+  position: relative;
+  left: -20px;
+}
+.Result_Details .bottom-Info .Claim_Btn .cash_icon img {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  border: 3px solid #ffffff;
 }
 #Claim_price {
   background: url("../images/main_bg.jpg");
@@ -957,8 +948,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 100px 0px;
-  min-height: 400px;
+  padding: 50px 0px;
   float: left;
   width: 100%;
 }
@@ -999,9 +989,81 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   border-radius: 50%;
   margin-left: 10px;
 }
+.Banner_Long {
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  top: -500px;
+  left: -200px;
+  width: 300px;
+  height: 400px;
+}
+.Banner_Long .Info_Long {
+  background-color: #ffffff;
+  position: relative;
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Banner_Long .Info_Long .BannerTop {
+  text-decoration: none;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .Banner_Top_text {
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  margin-left: -150px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .BText_Huge {
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .Extra_Info {
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  top: -25px;
+  left: -40px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info i {
+  padding: 20px 40px;
+  opacity: 0.8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info i:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  opacity: 1.0;
+}
+.Banner_Long .Info_Long .banner_Info:hover {
+  color: #ffffff;
+}
 .bottom-Info-Price {
   float: left;
   position: relative;
+  top: -10px;
   left: 400px;
   width: 700px;
+}
+.bottom-Info-Price .Claim_Btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #ff0000;
+  border-radius: 5px;
 }
