@@ -810,6 +810,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   color: #ffffff;
   background-color: #ff0000;
   opacity: 1.0;
+  border: 1px solid #ffffff;
 }
 .Result_Details .Past-winners .Other_Info .banner_Info:hover {
   color: #ffffff;
@@ -826,21 +827,9 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   top: -10px;
   text-decoration: none;
   color: #ffffff;
-  font-size: 14px;
-  padding: 10px 15px 10px 5px;
+  padding: 5px 15px;
   background-color: #ff0000;
-  border-radius: 10px;
-  border: 1px solid #ffffff;
-}
-.Result_Details .bottom-Info .Claim_Btn .cash_icon {
-  position: relative;
-  left: -20px;
-}
-.Result_Details .bottom-Info .Claim_Btn .cash_icon img {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: #ff0000;
-  border: 3px solid #ffffff;
+  border-radius: 5px;
 }
 #Claim_price {
   background: url("../images/main_bg.jpg");
@@ -999,7 +988,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   height: 400px;
 }
 .Banner_Long .Info_Long {
-  background-color: #ffffff;
+  background-color: #ff0000;
   position: relative;
   padding: 20px;
   width: 350px;
@@ -1049,6 +1038,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   color: #ffffff;
   background-color: #ff0000;
   opacity: 1.0;
+  border: 1px solid #ffffff;
 }
 .Banner_Long .Info_Long .banner_Info:hover {
   color: #ffffff;
@@ -1066,4 +1056,209 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   padding: 5px 15px;
   background-color: #ff0000;
   border-radius: 5px;
+}
+.News_All {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.News_All .container .breadcrumb {
+  background-color: transparent;
+}
+.News_All .container .breadcrumb li a {
+  color: #ff6600;
+}
+.News_All .container .News_section {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 100;
+  float: left;
+  position: relative;
+  padding-bottom: 20px;
+}
+.News_All .container .News_section h4 {
+  float: left;
+}
+.News_All .container .News_section .date_posted {
+  float: left;
+  font-size: 12px;
+}
+.article_body {
+  font-size: 16px;
+  font-weight: 200;
+}
+.Enel_Games {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Enel_Games .Lotto_Game .Six_star {
+  float: left;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 400px;
+  width: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  padding: 80px 50px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.Enel_Games .Lotto_Game .Six_star .game_logo {
+  float: left;
+  position: relative;
+  top: -20px;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+.Enel_Games .Lotto_Game .Six_star .game_logo img {
+  width: 180px;
+  height: 100px;
+}
+.Enel_Games .Lotto_Game .Six_star .games_des {
+  font-size: 16px;
+  width: 200px;
+}
+.Enel_Games .Lotto_Game .Six_star:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.Enel_Games .Five_star {
+  float: left;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  left: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 50px;
+  padding: 80px 50px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.Enel_Games .Five_star .game_logo {
+  float: left;
+  position: relative;
+  top: -20px;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+.Enel_Games .Five_star .game_logo img {
+  width: 180px;
+  height: 100px;
+}
+.Enel_Games .Five_star .games_des {
+  font-size: 16px;
+  width: 200px;
+}
+.Enel_Games .Five_star:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.Enel_Games .New_Star {
+  float: left;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  left: 400px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 124px 50px;
+  color: #ffffff;
+  background-color: #333333;
+  opacity: 0.7;
+}
+.Enel_Games .New_Star .game_logo {
+  float: left;
+  position: relative;
+  top: -20px;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+.Enel_Games .New_Star .game_logo img {
+  width: 180px;
+  height: 100px;
+}
+.Enel_Games .New_Star .games_des {
+  font-size: 16px;
+  width: 200px;
+}
+.Five_Star_Game {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Five_Star_Game .Game_Type {
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  left: 400px;
+  width: 500px;
+}
+.Five_Star_Game .Game_Type .logo_holder {
+  float: left;
+  position: relative;
+}
+.Five_Star_Game .Game_Type .logo_holder img {
+  width: 180px;
+  height: 100px;
+}
+.Five_Star_Game .Game_Type .Game_name {
+  margin-left: 50px;
+  font-size: 25px;
+}
+.Five_Star_Game .Game_Type button {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+}
+.Five_Star_Game .game_rules {
+  float: left;
+  position: relative;
+  top: 150px;
+  left: -100px;
+  width: 500px;
+  padding: 20px 20px 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.Five_Star_Game .game_rules h3 {
+  color: #333333;
+  font-weight: 100;
+}
+.Five_Star_Game .last_results {
+  float: right;
+  position: relative;
+  padding: 40px 20px;
+  left: -600px;
+}
+.Five_Star_Game .last_results .result1 {
+  border-bottom: 2px solid #f9f9f9;
+}
+.Five_Star_Game .last_results .result1 ul li {
+  float: left;
+  list-style-type: none;
 }
