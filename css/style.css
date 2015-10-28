@@ -579,64 +579,188 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   padding: 10px;
   top: -100px;
 }
-.Result_Big {
+.All_games {
   background: url("../images/main_bg.jpg");
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0px;
-  min-height: 700px;
+  min-height: 900px;
   float: left;
   width: 100%;
 }
-.Result_Big .Result_logo_text {
+.All_games .Five_Star_holder {
+  float: left;
+  position: relative;
+  left: 400px;
+  top: 100px;
+}
+.All_games .Five_Star_holder .Game_Type {
+  float: left;
+  position: relative;
+  background-color: #ff4d4d;
+  border-radius: 10px;
+  padding: 10px;
+  top: -100px;
+  width: 500px;
+}
+.All_games .Five_Star_holder .Game_Type .logo_holder {
   float: left;
   position: relative;
 }
-.Result_Big .Result_logo_text .history_text {
-  font-size: 35px;
-  padding-left: 400px;
-  font-weight: bold;
-  float: left;
-  position: relative;
+.All_games .Five_Star_holder .Game_Type .logo_holder img {
+  width: 180px;
 }
-.Result_Big .result_table {
-  width: 70%;
-  padding-left: 400px;
-}
-.Result_Big .result_table .custom-table .Result-head {
-  background-color: #303030;
-  padding: 30px 20px;
-}
-.Result_Big .result_table .custom-table .Result-head tr th {
-  font-size: 18px;
+.All_games .Five_Star_holder .Game_Type .Game_name {
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 25px;
   color: #ffffff;
+}
+.All_games .Five_Star_holder .Game_Type span {
+  position: relative;
+  top: 15px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff0000;
+}
+.All_games .Five_Star_holder .Recent_results {
+  position: relative;
+  padding: 10px 50px;
+  background-color: #ff4d4d;
+  border-radius: 10px;
+}
+.All_games .Five_Star_holder .Recent_results .Info_text {
+  position: relative;
+  bottom: 25px;
+  font-size: 25px;
   font-weight: bold;
 }
-.Result_Big .result_table .custom-table .Result_body {
+.All_games .Five_Star_holder .Recent_results .result1 {
+  padding: 30px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
   background-color: #ffffff;
+  opacity: 0.9;
 }
-.Result_Big .result_table .custom-table .Result_body .Month_head {
-  font-size: 14px;
+.All_games .Five_Star_holder .Recent_results .result1 .content_result {
+  position: relative;
+  bottom: 25px;
+  opacity: 1.0;
 }
-.Result_Big .result_table .custom-table .Result_body tr td {
-  padding-bottom: 20px;
-  padding-top: 20px;
+.All_games .Five_Star_holder .Recent_results .result1 span {
+  position: relative;
 }
-.Result_Big .result_table .custom-table .Result_body tr td span {
-  padding: 15px;
-  background-color: #ff6600;
-  color: #ffffff;
-  font-size: 20px;
+.All_games .Five_Star_holder .Recent_results .result1 ul li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #c7c7c7;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
   font-weight: bold;
-  border-radius: 50%;
-  margin-left: 10px;
 }
-.Mth_Display {
-  margin-right: 100%;
+.All_games .Five_Star_holder .Recent_results .More_Text {
+  position: relative;
+  left: 150px;
+  top: -10px;
+}
+.All_games .Six_Star_holder {
+  float: right;
+  position: relative;
+  top: 100px;
+  right: 400px;
+}
+.All_games .Six_Star_holder .Game_Type {
+  float: left;
+  position: relative;
+  background-color: #ff6600;
+  border-radius: 10px;
+  top: -100px;
+  padding: 10px;
+  width: 500px;
+}
+.All_games .Six_Star_holder .Game_Type .logo_holder {
+  float: left;
+  position: relative;
+}
+.All_games .Six_Star_holder .Game_Type .logo_holder img {
+  width: 180px;
+}
+.All_games .Six_Star_holder .Game_Type .Game_name {
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #ffffff;
+}
+.All_games .Six_Star_holder .Game_Type span {
+  position: relative;
+  top: 15px;
+  padding: 10px 50px;
   font-weight: bold;
   font-size: 18px;
+  color: #ff0000;
+}
+.All_games .Six_Star_holder .Recent_results {
+  position: relative;
+  padding: 10px 40px;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+.All_games .Six_Star_holder .Recent_results .Info_text {
+  position: relative;
+  bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.All_games .Six_Star_holder .Recent_results .result1 {
+  padding: 30px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.All_games .Six_Star_holder .Recent_results .result1 .content_result {
+  position: relative;
+  bottom: 25px;
+  opacity: 1.0;
+}
+.All_games .Six_Star_holder .Recent_results .result1 span {
+  position: relative;
+}
+.All_games .Six_Star_holder .Recent_results .result1 ul li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #c7c7c7;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.All_games .Six_Star_holder .Recent_results .More_Text {
+  position: relative;
+  left: 150px;
+  top: -10px;
 }
 /*------------------------ -------------------------- */
 .rules_holder {
@@ -1133,7 +1257,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   width: 200px;
 }
 .Enel_Games .Lotto_Game .Six_star:hover {
-  background-color: #ff6600;
+  background-color: #FF6600;
   color: #ffffff;
 }
 .Enel_Games .Five_star {
@@ -1165,7 +1289,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   width: 200px;
 }
 .Enel_Games .Five_star:hover {
-  background-color: #ff6600;
+  background-color: #ff4d4d;
   color: #ffffff;
 }
 .Enel_Games .New_Star {
@@ -1210,9 +1334,9 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 .Five_Star_Game .Game_Type {
   float: left;
   position: relative;
-  background-color: #ffffff;
+  background-color: #FF4D4D;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   left: 400px;
   width: 500px;
 }
@@ -1222,18 +1346,18 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 }
 .Five_Star_Game .Game_Type .logo_holder img {
   width: 180px;
-  height: 100px;
 }
 .Five_Star_Game .Game_Type .Game_name {
   margin-left: 50px;
   font-size: 25px;
 }
-.Five_Star_Game .Game_Type button {
+.Five_Star_Game .Game_Type span {
   position: relative;
-  left: 30px;
-  top: 10px;
-  padding: 10px 20px;
-  background-color: #ff6600;
+  top: 15px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff0000;
 }
 .Five_Star_Game .game_rules {
   float: left;
@@ -1252,13 +1376,665 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 .Five_Star_Game .last_results {
   float: right;
   position: relative;
-  padding: 40px 20px;
-  left: -600px;
+  padding: 50px 50px;
+  left: -450px;
+  background-color: #FF4D4D;
+  border-radius: 10px;
+}
+.Five_Star_Game .last_results .Info_text {
+  position: relative;
+  bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
 }
 .Five_Star_Game .last_results .result1 {
-  border-bottom: 2px solid #f9f9f9;
+  padding: 40px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.Five_Star_Game .last_results .result1 .content_result {
+  position: relative;
+  bottom: 25px;
+  opacity: 1.0;
+}
+.Five_Star_Game .last_results .result1 span {
+  position: relative;
 }
 .Five_Star_Game .last_results .result1 ul li {
   float: left;
+  position: relative;
   list-style-type: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #c7c7c7;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.Five_Star_Game .last_results .More_Text {
+  position: relative;
+  left: 120px;
+  top: 10px;
+}
+.Five_Star_Game .last_results .More_Text a {
+  text-decoration: none;
+}
+.Result_Big {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Big .Result_logo_text {
+  float: left;
+  position: relative;
+}
+.Result_Big .Result_logo_text .Game_logo {
+  position: relative;
+  float: left;
+  left: 380px;
+  top: -10px;
+}
+.Result_Big .Result_logo_text .history_text {
+  font-size: 35px;
+  padding-left: 350px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.Result_Big .result_table {
+  width: 70%;
+  padding-left: 400px;
+}
+.Result_Big .result_table .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+}
+.Result_Big .result_table .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Result_Big .result_table .custom-table .Result_body {
+  background-color: #ffffff;
+}
+.Result_Big .result_table .custom-table .Result_body .Month_head {
+  font-size: 14px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td span {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Mth_Display {
+  margin-right: 100%;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Result_Big {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Big .Result_logo_text {
+  float: left;
+  position: relative;
+}
+.Result_Big .Result_logo_text .Game_logo {
+  position: relative;
+  float: left;
+  left: 380px;
+  top: -10px;
+}
+.Result_Big .Result_logo_text .history_text {
+  font-size: 35px;
+  padding-left: 350px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.Result_Big .result_table {
+  width: 70%;
+  padding-left: 400px;
+}
+.Result_Big .result_table .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+}
+.Result_Big .result_table .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Result_Big .result_table .custom-table .Result_body_five {
+  background-color: #ffffff;
+}
+.Result_Big .result_table .custom-table .Result_body_five .Month_head {
+  font-size: 14px;
+}
+.Result_Big .result_table .custom-table .Result_body_five tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Result_Big .result_table .custom-table .Result_body_five tr td span {
+  padding: 15px;
+  background-color: #FF4D4D;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Mth_Display {
+  margin-right: 100%;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Six_Star_Game {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Six_Star_Game .Game_Type {
+  float: left;
+  position: relative;
+  background-color: #ff6600;
+  border-radius: 10px;
+  padding: 30px;
+  left: 400px;
+  width: 500px;
+}
+.Six_Star_Game .Game_Type .logo_holder {
+  float: left;
+  position: relative;
+}
+.Six_Star_Game .Game_Type .logo_holder img {
+  width: 180px;
+}
+.Six_Star_Game .Game_Type .Game_name {
+  margin-left: 50px;
+  font-size: 25px;
+}
+.Six_Star_Game .Game_Type span {
+  position: relative;
+  top: 15px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff0000;
+}
+.Six_Star_Game .game_rules {
+  float: left;
+  position: relative;
+  top: 150px;
+  left: -100px;
+  width: 500px;
+  padding: 20px 20px 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.Six_Star_Game .game_rules h3 {
+  color: #333333;
+  font-weight: 100;
+}
+.Six_Star_Game .last_results {
+  float: right;
+  position: relative;
+  padding: 50px 50px;
+  left: -450px;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+.Six_Star_Game .last_results .Info_text {
+  position: relative;
+  bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.Six_Star_Game .last_results .result1 {
+  padding: 40px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.Six_Star_Game .last_results .result1 .content_result {
+  position: relative;
+  bottom: 25px;
+  opacity: 1.0;
+}
+.Six_Star_Game .last_results .result1 span {
+  position: relative;
+}
+.Six_Star_Game .last_results .result1 ul li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #c7c7c7;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.Six_Star_Game .last_results .More_Text {
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+.Result_Details_FiveLotto {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 600px;
+  float: left;
+  width: 100%;
+}
+.Result_Details_FiveLotto .Draw-Info-holder {
+  float: left;
+  position: relative;
+  padding: 10px 0px 20px 50px;
+  left: 300px;
+}
+.Result_Details_FiveLotto .Draw-Info-holder .game-logo-holder {
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.Result_Details_FiveLotto .Draw-Info-holder .game-logo-holder img {
+  width: 180px;
+  height: 100px;
+}
+.Result_Details_FiveLotto .Draw-Info-holder .draw-details-holder {
+  float: left;
+  position: relative;
+  padding-left: 20px;
+  padding-top: -5px;
+}
+.Result_Details_FiveLotto .Draw-Info-holder .draw-details-holder ul .Main_Info {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Result_Details_FiveLotto .Draw-Info-holder .draw-details-holder ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.Result_Details_FiveLotto .detail-toggle {
+  float: left;
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  top: 120px;
+  left: -200px;
+  border-bottom: 2px solid red;
+}
+.Result_Details_FiveLotto .detail-toggle ul li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 3px;
+  left: -50px;
+}
+.Result_Details_FiveLotto .detail-toggle ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.Result_Details_FiveLotto .detail-toggle ul li a:hover {
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+.Result_Details_FiveLotto .detail-toggle ul li:active {
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+.Result_Details_FiveLotto .Winning-num-holder {
+  float: left;
+  position: relative;
+  width: 550px;
+  left: -800px;
+  top: 220px;
+  padding: 30px;
+  background-color: #ff4d4d;
+  border-radius: 10px;
+}
+.Result_Details_FiveLotto .Winning-num-holder span {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Result_Details_FiveLotto .Winning-num-holder .Num_detail-holder {
+  float: left;
+  position: relative;
+}
+.Result_Details_FiveLotto .Winning-num-holder .Num_detail-holder span {
+  float: left;
+  font-size: 25px;
+  position: relative;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+.Result_Details_FiveLotto .Past-winners {
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  left: -400px;
+  width: 300px;
+  height: 400px;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info {
+  background-color: #ff0000;
+  position: relative;
+  padding: 20px;
+  width: 350px;
+  height: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop {
+  text-decoration: none;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info .Banner_Top_text {
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  margin-left: -150px;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info .BText_Huge {
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info .Extra_Info {
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  top: -25px;
+  left: -40px;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info i {
+  padding: 20px 40px;
+  opacity: 0.8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .BannerTop .banner_Info i:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  opacity: 1.0;
+  border: 1px solid #ffffff;
+}
+.Result_Details_FiveLotto .Past-winners .Other_Info .banner_Info:hover {
+  color: #ffffff;
+}
+.Result_Details_FiveLotto .bottom-Info {
+  float: left;
+  position: relative;
+  top: 250px;
+  left: 400px;
+  width: 700px;
+}
+.Result_Details_FiveLotto .bottom-Info .Claim_Btn {
+  position: relative;
+  top: -10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+.Result_Details_FivePrice {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0px;
+  float: left;
+  width: 100%;
+}
+.Result_Details_FivePrice .Draw-Info-holder {
+  float: left;
+  position: relative;
+  padding: 10px 0px 20px 50px;
+  left: 300px;
+}
+.Result_Details_FivePrice .Draw-Info-holder .game-logo-holder {
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.Result_Details_FivePrice .Draw-Info-holder .game-logo-holder img {
+  width: 180px;
+  height: 100px;
+}
+.Result_Details_FivePrice .Draw-Info-holder .draw-details-holder {
+  float: left;
+  position: relative;
+  padding-left: 20px;
+  padding-top: -5px;
+}
+.Result_Details_FivePrice .Draw-Info-holder .draw-details-holder ul .Main_Info {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Result_Details_FivePrice .Draw-Info-holder .draw-details-holder ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.Result_Details_FivePrice .detail-toggle {
+  float: left;
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  top: 120px;
+  left: -200px;
+  border-bottom: 2px solid red;
+}
+.Result_Details_FivePrice .detail-toggle ul li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 3px;
+  left: -50px;
+}
+.Result_Details_FivePrice .detail-toggle ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.Result_Details_FivePrice .detail-toggle ul li a:hover {
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+.Result_Details_FivePrice .detail-toggle ul li:active {
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+.Result_Details_FivePrice .price-table-holder {
+  width: 70%;
+  padding-left: 400px;
+  padding-top: 220px;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result_body {
+  background-color: #ffffff;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result_body .Month_head {
+  font-size: 14px;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result_body .total_row {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result_body tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Result_Details_FivePrice .price-table-holder .custom-table .Result_body tr td span {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Banner_Long {
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  top: -500px;
+  left: -200px;
+  width: 300px;
+  height: 400px;
+}
+.Banner_Long .Info_Long {
+  background-color: #ff0000;
+  position: relative;
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Banner_Long .Info_Long .BannerTop {
+  text-decoration: none;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .Banner_Top_text {
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  margin-left: -150px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .BText_Huge {
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info .Extra_Info {
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  top: -25px;
+  left: -40px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info i {
+  padding: 20px 40px;
+  opacity: 0.8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+}
+.Banner_Long .Info_Long .BannerTop .banner_Info i:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  opacity: 1.0;
+  border: 1px solid #ffffff ff;
+}
+.Banner_Long .Info_Long .banner_Info:hover {
+  color: #ffffff;
+}
+.bottom-Info-Price {
+  float: left;
+  position: relative;
+  top: -10px;
+  left: 400px;
+  width: 700px;
+}
+.bottom-Info-Price .Claim_Btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('fonts/Lato-Regular.ttf');
+  src: url('fonts/Lato-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
 }

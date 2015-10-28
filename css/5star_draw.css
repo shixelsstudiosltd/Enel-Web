@@ -1,0 +1,182 @@
+.Result_Details_Five {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Details_Five .Draw-Info-holder {
+  float: left;
+  position: relative;
+  padding: 10px 0px 20px 50px;
+  left: 300px;
+}
+.Result_Details_Five .Draw-Info-holder .game-logo-holder {
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.Result_Details_Five .Draw-Info-holder .game-logo-holder img {
+  width: 180px;
+  height: 100px;
+}
+.Result_Details_Five .Draw-Info-holder .draw-details-holder {
+  float: left;
+  position: relative;
+  padding-left: 20px;
+  padding-top: -5px;
+}
+.Result_Details_Five .Draw-Info-holder .draw-details-holder ul .Main_Info {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Result_Details_Five .Draw-Info-holder .draw-details-holder ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.Result_Details_Five .detail-toggle {
+  float: left;
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  top: 120px;
+  left: -200px;
+  border-bottom: 2px solid red;
+}
+.Result_Details_Five .detail-toggle ul li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 3px;
+  left: -50px;
+}
+.Result_Details_Five .detail-toggle ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.Result_Details_Five .detail-toggle ul li a:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.Result_Details_Five .detail-toggle ul li:active {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+.Result_Details_Five .Winning-num-holder {
+  float: left;
+  position: relative;
+  width: 550px;
+  left: -800px;
+  top: 220px;
+  padding: 30px;
+  background-color: #ff4d4d;
+  border-radius: 10px;
+}
+.Result_Details_Five .Winning-num-holder span {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Result_Details_Five .Winning-num-holder .Num_detail-holder {
+  float: left;
+  position: relative;
+}
+.Result_Details_Five .Winning-num-holder .Num_detail-holder span {
+  float: left;
+  font-size: 25px;
+  position: relative;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+.Result_Details_Five .Past-winners {
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  left: -400px;
+  width: 300px;
+  height: 400px;
+}
+.Result_Details_Five .Past-winners .Other_Info {
+  background-color: #ff0000;
+  position: relative;
+  padding: 20px;
+  width: 350px;
+  height: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop {
+  text-decoration: none;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info {
+  padding: 5px;
+  text-align: center;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info .Banner_Top_text {
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  margin-left: -150px;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info .BText_Huge {
+  text-align: center;
+  color: #000000;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info .Extra_Info {
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  top: -25px;
+  left: -40px;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info i {
+  padding: 20px 40px;
+  opacity: 0.8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+}
+.Result_Details_Five .Past-winners .Other_Info .BannerTop .banner_Info i:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  opacity: 1.0;
+  border: 1px solid #ffffff;
+}
+.Result_Details_Five .Past-winners .Other_Info .banner_Info:hover {
+  color: #ffffff;
+}
+.Result_Details_Five .bottom-Info {
+  float: left;
+  position: relative;
+  top: 250px;
+  left: 400px;
+  width: 700px;
+}
+.Result_Details_Five .bottom-Info .Claim_Btn {
+  position: relative;
+  top: -10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}

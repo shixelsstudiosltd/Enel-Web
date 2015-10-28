@@ -1,100 +1,224 @@
-//Results page style
-.Result_Big{
+//Results Style
+.All_games{
 	background:url("../images/main_bg.jpg");
 	z-index: -1;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	padding:100px 0px;
-	min-height: 700px;
+	min-height: 900px;
 	float: left;
 	width: 100%;
 
+	.Five_Star_holder{
+		float: left;
+		position: relative;
+		left: 400px;
+		top: 100px;
 
-		.Result_logo_text{
+		.Game_Type{
 			float: left;
 			position: relative;
+			background-color: #ff4d4d;
+			border-radius: 10px;
+			padding: 10px;
+			top: -100px;
+			width: 500px;
 
-			.history_text{
-				font-size: 35px;
-				padding-left: 400px;
-				font-weight: bold;
+			.logo_holder{
 				float: left;
 				position: relative;
-			}
 
-		}
-	
-
-	.result_table{
-		width: 70%;
-		padding-left: 400px;
-
-		.custom-table{
-
-			.Result-head{
-				background-color: #303030;
-				padding: 30px 20px;
-
-				tr{
-
-					th{
-						font-size: 18px;
-						color: #ffffff;
-						font-weight: bold;
-
-					}
+				img{
+					width: 180px;
 				}
 			}
 
-			.Result_body{
+			.Game_name{
+				margin-left: 50px;
+				padding-top: 15px;
+				padding-bottom: 10px;
+				font-size: 25px;
+				color: #ffffff;
+			}
+
+			span{
+				position: relative;
+				top: 15px;
+				padding: 10px 50px;
+				font-weight: bold;
+				font-size: 18px; 
+				color: #ff0000;
+			}
+		}
+
+		.Recent_results{
+			position: relative;
+			padding: 10px 50px;
+			background-color: #ff4d4d;
+			border-radius: 10px;
+
+			.Info_text{
+				position: relative;
+				bottom: 25px;
+				font-size: 25px;
+				font-weight: bold;
+			}
+
+			.result1{
+				padding: 30px 10px;
+				border-radius: 5px;
+				margin-bottom: 20px;
 				background-color: #ffffff;
+				opacity: 0.9;
 
-				.Month_head{
-					font-size: 14px;
+				.content_result{
+					position: relative;
+					bottom: 25px;
+					opacity: 1.0;
 				}
 
-				tr{
+				span{
+					position: relative;
+				}
 
+				ul{
+					
 
-					td{
-						padding-bottom: 20px;
-						padding-top: 20px;
-
-						span{
-						padding: 15px;
-						background-color: #ff6600;
-						color: #ffffff;
-						font-size: 20px;
+					li{
+						float: left;
+						position: relative;
+						list-style-type: none;
+						padding: 10px;
+						background-color: #ffffff;
+						border: 2px solid #c7c7c7;
+						margin: 5px;
+						width: 50px;
+						height: 50px;
+						border-radius: 100%;
+						display: inline-block;
+						line-height: 30px;
+						text-align: center;
+						font-size: 1.5em;
 						font-weight: bold;
-						border-radius: 50%;
-						margin-left: 10px;
-						}
-					}
 
+
+					}
 				}
+			}
+
+			.More_Text{
+				position: relative;
+				left: 150px;
+				top: -10px;
+			}
+		}
+	}
+
+	.Six_Star_holder{
+		float: right;
+		position: relative;
+		top: 100px;
+		right: 400px;
+
+		.Game_Type{
+			float: left;
+			position: relative;
+			background-color: #ff6600;
+			border-radius: 10px;
+			top: -100px;
+			padding: 10px;
+			width: 500px;
+
+			.logo_holder{
+				float: left;
+				position: relative;
+
+				img{
+					width: 180px;
+				}
+			}
+
+			.Game_name{
+				margin-left: 50px;
+				padding-top: 15px;
+				padding-bottom: 10px;
+				font-size: 25px;
+				color: #ffffff;
+			}
+
+			span{
+				position: relative;
+				top: 15px;
+				padding: 10px 50px;
+				font-weight: bold;
+				font-size: 18px; 
+				color: #ff0000;
 			}
 		}
 
+		.Recent_results{
+			position: relative;
+			padding: 10px 40px;
+			background-color: #ff6600;
+			border-radius: 10px;
+
+			.Info_text{
+				position: relative;
+				bottom: 25px;
+				font-size: 25px;
+				font-weight: bold;
+			}
+
+			.result1{
+				padding: 30px 10px;
+				border-radius: 5px;
+				margin-bottom: 20px;
+				background-color: #ffffff;
+				opacity: 0.9;
+
+				.content_result{
+					position: relative;
+					bottom: 25px;
+					opacity: 1.0;
+				}
+
+				span{
+					position: relative;
+				}
+
+				ul{
+					
+
+					li{
+						float: left;
+						position: relative;
+						list-style-type: none;
+						padding: 10px;
+						background-color: #ffffff;
+						border: 2px solid #c7c7c7;
+						margin: 5px;
+						width: 50px;
+						height: 50px;
+						border-radius: 100%;
+						display: inline-block;
+						line-height: 30px;
+						text-align: center;
+						font-size: 1.5em;
+						font-weight: bold;
+
+
+					}
+				}
+			}
+
+			.More_Text{
+				position: relative;
+				left: 150px;
+				top: -10px;
+			}
+		}
 	}
 }
-
-// month head
-
-					.Mth_Display{
-						margin-right: 100%;
-						font-weight: bold;
-						font-size: 18px;
-					}
-
-
-
-
-
-
-
-
-
-
 
 

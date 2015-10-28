@@ -1,0 +1,64 @@
+.Result_Big {
+  background: url("../images/main_bg.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px;
+  min-height: 700px;
+  float: left;
+  width: 100%;
+}
+.Result_Big .Result_logo_text {
+  float: left;
+  position: relative;
+}
+.Result_Big .Result_logo_text .Game_logo {
+  position: relative;
+  float: left;
+  padding-left: 300px;
+}
+.Result_Big .Result_logo_text .history_text {
+  font-size: 35px;
+  padding-left: 400px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.Result_Big .result_table {
+  width: 70%;
+  padding-left: 400px;
+}
+.Result_Big .result_table .custom-table .Result-head {
+  background-color: #303030;
+  padding: 30px 20px;
+}
+.Result_Big .result_table .custom-table .Result-head tr th {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Result_Big .result_table .custom-table .Result_body {
+  background-color: #ffffff;
+}
+.Result_Big .result_table .custom-table .Result_body .Month_head {
+  font-size: 14px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.Result_Big .result_table .custom-table .Result_body tr td span {
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Mth_Display {
+  margin-right: 100%;
+  font-weight: bold;
+  font-size: 18px;
+}
