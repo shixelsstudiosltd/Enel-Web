@@ -43,6 +43,9 @@ header .Top-Nav ul li a {
 header .Top-Nav ul li a:hover {
   border-bottom: 2px solid #ff6600;
 }
+header .Top-Nav ul .show-on-hover .show-on-hover:hover > ul.dropdown-menu {
+  display: block;
+}
 header .Top-Nav .Btn_Login {
   background-color: #303675;
   color: #ffffff;
@@ -559,7 +562,6 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 .the_About .About_info_holder {
   float: left;
   position: relative;
-  padding-left: 300px;
 }
 .the_About .About_info_holder .About_Left {
   float: left;
@@ -568,15 +570,50 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   width: 600px;
   font-size: 18px;
 }
-.the_About .About_info_holder .About_Right {
+.the_About .About_info_holder .About_Left .Enel_brief {
   float: left;
   position: relative;
+  top: 30px;
+  left: -220px;
+}
+.the_About .About_info_holder .About_Left .About_Enel_Games {
+  float: left;
+  position: relative;
+  top: 40px;
+  left: -220px;
+}
+.the_About .About_info_holder .About_Left .About_Enel_Games h4 {
+  color: #ff6600;
+  font-size: 25px;
+}
+.the_About .About_info_holder .About_Left .About_Enel_Games .Game_name {
+  float: left;
+}
+.the_About .About_info_holder .About_Left .About_Enel_Games p {
+  float: left;
+}
+.the_About .About_info_holder .About_Left .Corporate_Social {
+  float: left;
+  position: relative;
+  top: 40px;
+  left: -220px;
+}
+.the_About .About_info_holder .About_Left .Reaching_platform {
+  float: left;
+  position: relative;
+  top: 40px;
+  left: -220px;
+}
+.the_About .About_info_holder .About_Right {
+  float: left;
+  position: fixed;
+  padding-left: 300px;
   margin-left: 200px;
   width: 600px;
 }
 .the_About .About_info_holder .About_Right .img-holder-enugu {
   position: relative;
-  padding: 10px;
+  padding: 5px;
   top: -100px;
 }
 .All_games {
@@ -842,7 +879,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   background-color: #ff6600;
   color: #ffffff;
 }
-.Result_Details .detail-toggle ul li:active {
+.Result_Details .detail-toggle ul a:active {
   background-color: #ff6600;
   color: #ffffff;
 }
@@ -1371,7 +1408,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 }
 .Five_Star_Game .game_rules h3 {
   color: #333333;
-  font-weight: 100;
+  font-weight: 400;
 }
 .Five_Star_Game .last_results {
   float: right;
@@ -1608,7 +1645,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
 }
 .Six_Star_Game .game_rules h3 {
   color: #333333;
-  font-weight: 100;
+  font-weight: 400;
 }
 .Six_Star_Game .last_results {
   float: right;
@@ -1667,7 +1704,7 @@ footer .footer-content-holder .footer-info .partners-info ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 100px 0px;
+  padding: 50px 0px;
   min-height: 600px;
   float: left;
   width: 100%;
