@@ -29,11 +29,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/about-us.html": {
+	"\/About-us.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about-us.html",
+		"inputAbbreviatedPath": "\/About-us.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -883,13 +883,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/ENUGU.png": {
+	"\/images\/enugu.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 44921,
-		"inputAbbreviatedPath": "\/images\/ENUGU.png",
-		"outputAbbreviatedPath": "\/images\/ENUGU.png",
+		"inputAbbreviatedPath": "\/images\/enugu.png",
+		"outputAbbreviatedPath": "\/images\/enugu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1550,11 +1550,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/news.html": {
+	"\/News.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/news.html",
+		"inputAbbreviatedPath": "\/News.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

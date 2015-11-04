@@ -138,6 +138,7 @@ header .Top-Nav .Btn_Reg {
 }
 .Past_num .Info_past {
   position: absolute;
+  padding: 0px auto;
   margin-left: 720px;
   float: left;
   color: #303675;
@@ -147,19 +148,24 @@ header .Top-Nav .Btn_Reg {
 }
 .Past_num .PastNum-holder {
   float: left;
-  margin: 80px 0 0 250px;
+  margin: 80px 0 0 0px;
 }
 .Past_num .PastNum-holder .PastNum1 {
   float: left;
+  margin-left: 300px;
   width: 500px;
+  background-color: #ff4d4d;
+  padding: 100px 20px 20px 20px;
+  border-radius: 10px;
+}
+.Past_num .PastNum-holder .PastNum1 ul {
+  padding-left: 0px;
 }
 .Past_num .PastNum-holder .PastNum1 ul li {
   list-style-type: none;
   border: none;
   margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #ff6600;
+  padding: 5px;
 }
 .Past_num .PastNum-holder .PastNum1 ul li span {
   padding: 10px;
@@ -173,20 +179,23 @@ header .Top-Nav .Btn_Reg {
   padding: 5px 10px 0 10px;
   color: #ffffff;
   font-weight: bold;
-  text-transform: uppercase;
 }
 .Past_num .PastNum-holder .PastNum2 {
   float: left;
   width: 500px;
-  margin-left: 200px;
+  padding: 100px 20px 20px 20px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.Past_num .PastNum-holder .PastNum2 ul {
+  padding-left: 0px;
 }
 .Past_num .PastNum-holder .PastNum2 ul li {
   list-style-type: none;
   border: none;
   margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #ff6600;
+  padding: 5px;
 }
 .Past_num .PastNum-holder .PastNum2 ul li span {
   padding: 10px;
@@ -200,7 +209,6 @@ header .Top-Nav .Btn_Reg {
   padding: 5px 10px 0 10px;
   color: #ffffff;
   font-weight: bold;
-  text-transform: uppercase;
 }
 footer .footer-content-holder {
   width: 100%;
