@@ -137,7 +137,7 @@ header .Top-Nav .Btn_Reg {
   padding: 30px 50px;
 }
 .Past_num .Info_past {
-  position: absolute;
+  position: relative;
   padding: 0px auto;
   margin-left: 720px;
   float: left;
@@ -146,28 +146,54 @@ header .Top-Nav .Btn_Reg {
   font-size: 35px;
   font-weight: bold;
 }
-.Past_num .PastNum-holder {
+.Past_num .Game_logo_toggle {
   float: left;
-  margin: 80px 0 0 0px;
+  position: relative;
+  top: 60px;
+  margin-bottom: 20px;
+  left: -350px;
 }
-.Past_num .PastNum-holder .PastNum1 {
+.Past_num .Game_logo_toggle .toggle_results_Six {
+  float: left;
+  position: relative;
+  background-color: #ff6600;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Past_num .Game_logo_toggle .toggle_results_Five {
+  float: left;
+  position: relative;
+  background-color: #ff4d4d;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.Past_num .PastNum-holder_Five_Star {
+  position: relative;
+  top: 30px;
+  margin: 80px 0 50px 0px;
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+.Past_num .PastNum-holder_Five_Star .PastNum1 {
   float: left;
   margin-left: 300px;
   width: 500px;
   background-color: #ff4d4d;
-  padding: 100px 20px 20px 20px;
+  padding: 20px;
   border-radius: 10px;
 }
-.Past_num .PastNum-holder .PastNum1 ul {
-  padding-left: 0px;
+.Past_num .PastNum-holder_Five_Star .PastNum1 ul {
+  padding-left: 10px;
+  padding-right: 0px;
 }
-.Past_num .PastNum-holder .PastNum1 ul li {
+.Past_num .PastNum-holder_Five_Star .PastNum1 ul li {
   list-style-type: none;
   border: none;
   margin-bottom: 20px;
   padding: 5px;
 }
-.Past_num .PastNum-holder .PastNum1 ul li span {
+.Past_num .PastNum-holder_Five_Star .PastNum1 ul li span {
   padding: 10px;
   background-color: #ffffff;
   color: #000000;
@@ -175,29 +201,30 @@ header .Top-Nav .Btn_Reg {
   font-weight: bold;
   border-radius: 50%;
 }
-.Past_num .PastNum-holder .PastNum1 ul li label {
+.Past_num .PastNum-holder_Five_Star .PastNum1 ul li label {
   padding: 5px 10px 0 10px;
   color: #ffffff;
   font-weight: bold;
 }
-.Past_num .PastNum-holder .PastNum2 {
+.Past_num .PastNum-holder_Five_Star .PastNum1b {
   float: left;
   width: 500px;
-  padding: 100px 20px 20px 20px;
-  background-color: #ff6600;
+  padding: 20px;
+  background-color: #ff4d4d;
   border-radius: 10px;
   margin-left: 100px;
 }
-.Past_num .PastNum-holder .PastNum2 ul {
-  padding-left: 0px;
+.Past_num .PastNum-holder_Five_Star .PastNum1b ul {
+  padding-left: 10px;
+  padding-right: 0px;
 }
-.Past_num .PastNum-holder .PastNum2 ul li {
+.Past_num .PastNum-holder_Five_Star .PastNum1b ul li {
   list-style-type: none;
   border: none;
   margin-bottom: 20px;
   padding: 5px;
 }
-.Past_num .PastNum-holder .PastNum2 ul li span {
+.Past_num .PastNum-holder_Five_Star .PastNum1b ul li span {
   padding: 10px;
   background-color: #ffffff;
   color: #000000;
@@ -205,7 +232,77 @@ header .Top-Nav .Btn_Reg {
   font-weight: bold;
   border-radius: 50%;
 }
-.Past_num .PastNum-holder .PastNum2 ul li label {
+.Past_num .PastNum-holder_Five_Star .PastNum1b ul li label {
+  padding: 5px 10px 0 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Past_num .PastNum-holder_Six_Star {
+  position: relative;
+  top: 50px;
+  margin: 80px 0 0 0px;
+  padding: 30px 0px;
+  border-radius: 10px;
+  height: 500px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2 {
+  float: left;
+  margin-left: 300px;
+  width: 500px;
+  background-color: #ff6600;
+  padding: 20px;
+  border-radius: 10px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2 ul {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2 ul li {
+  list-style-type: none;
+  border: none;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2 ul li span {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2 ul li label {
+  padding: 5px 10px 0 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2b {
+  float: left;
+  width: 500px;
+  padding: 20px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2b ul {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2b ul li {
+  list-style-type: none;
+  border: none;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2b ul li span {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.Past_num .PastNum-holder_Six_Star .PastNum2b ul li label {
   padding: 5px 10px 0 10px;
   color: #ffffff;
   font-weight: bold;
