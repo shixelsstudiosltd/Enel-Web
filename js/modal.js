@@ -23,17 +23,6 @@ $(document).on("click",".login-modal-up",function(){
 });
 
 
-// For slide_toggle : On Landing Page
-$(document).ready(function(){
-    $("#hide").click(function(){
-        $("PastNum-holder_Five_Star").hide();
-    });
-    $("#show").click(function(){
-        $("PastNum-holder_Six_Star").show();
-    });
-});
-
-
 
 
 
